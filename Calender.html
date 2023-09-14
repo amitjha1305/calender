@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Calender</title>
+    <link rel="stylesheet" href="calander.CSS">
+
+</head>
+<body onload="RenderDate()">
+    <div class="Wrapper">
+     <div class="Calender">
+      <div class="month">
+        <div class="prev" onclick ="moveDate('prev')">
+        <span>&#10094</span>
+       </div>
+    <div>
+        <H2 id="month"></H2>
+        <p id="date_str"></p>
+    </div>
+    <div class="next" onclick ="moveDate('next')">
+        <span>&#10095</span>
+    </div>
+</div>
+<div class="weeks">
+    <div>MON</div>
+    <div>TUE</div>
+    <div>WED</div>
+    <div>THR</div>
+    <div>FRI</div>
+    <div>SAT</div>
+    <div>SUN</div>
+    
+</div>
+<div class="days">
+    
+    </div>
+    </div>
+ </div>
+ <script src="Calender.js"></script>
+</body>
+</html>
